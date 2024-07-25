@@ -1,0 +1,60 @@
+.header_light {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header_light .logo {
+    max-height: 25px;
+    max-width: 35px;
+}
+
+.header_light .btn {
+    border: 1px solid #747272;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.header_light .btn_img {
+    max-height: 20px;
+    max-width: 20px;
+}
+
+
+/* Dark_Mode */
+
+
+.header_dark {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #252525;
+}
+
+.header_dark .logo {
+    max-height: 25px;
+    max-width: 35px;
+}
+
+.header_dark .btn {
+    border: 1px solid white;
+    background-color: #252525;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.header_dark .btn_img {
+    max-height: 20px;
+    max-width: 20px;
+}

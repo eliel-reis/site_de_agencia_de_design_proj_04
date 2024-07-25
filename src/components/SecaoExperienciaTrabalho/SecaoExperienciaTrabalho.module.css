@@ -1,0 +1,134 @@
+.container_light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f8fc;
+    padding-bottom: 80px;
+}
+
+.container_light .primeira_secao {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    gap: 20px;
+}
+
+.container_light .primeira_secao h3 {
+    color: #32333c;
+    font-size: 30px;
+    display: relative;
+}
+
+.container_light .primeira_secao h3::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #feb633;
+    position: absolute;
+    bottom: -2%;
+    left: 47%;
+}
+
+
+.container_light .primeira_secao p {
+    color: #8a8fa3;
+    width: 80%;
+}
+
+
+.container_light .segunda_secao {
+    display: flex;
+    max-width: 1024px;
+    height: 350px;
+}
+
+
+@media (max-width: 768px) {
+    .container_light .segunda_secao {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 10px;
+        height: 100%;
+    }
+}
+
+
+/* Dark_Mode */
+
+.container_dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #393838;
+    padding-bottom: 80px;
+}
+
+.container_dark .primeira_secao {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    gap: 20px;
+    background-color: #393838;
+}
+
+.container_dark .primeira_secao h3 {
+    color: #cccccc;
+    font-size: 30px;
+    display: relative;
+}
+
+.container_dark .primeira_secao h3::before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #feb633;
+    position: absolute;
+    bottom: -2%;
+    left: 47%;
+}
+
+
+.container_dark .primeira_secao p {
+    color: #cccccc;
+    width: 80%;
+}
+
+
+.container_dark .segunda_secao {
+    display: flex;
+    max-width: 1024px;
+    height: 350px;
+    padding: px 0;
+}
+
+
+@media (max-width: 768px) {
+    .container_dark .segunda_secao {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 10px;
+        height: 100%;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+
+    .container_light .primeira_secao h3::before {
+        display: none;
+    }
+
+    .container_dark .primeira_secao h3::before {
+        display: none;
+    }
+
+}
